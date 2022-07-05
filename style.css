@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.formulario {
+  width: 50%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+}
+
+.box-logo{
+    width: 40%;
+    height: 10vh;
+    display: flex;
+}
+.redes {
+  width: 1.5vw;
+}
+
+.btn-rede-apple {
+  width: 20%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  background: #000000;
+}
+.btn-rede-google {
+  width: 20%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  background: #8a0000;
+}
+
+.btn-rede-face {
+  width: 20%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  background: #2051ff;
+}
+
+.container-rede {
+  width: 60%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+form input{
+  width: 60%;
+  height: 6vh;
+  margin-top: 4vh;
+  border-style: none;
+  background: #E8E6E6;
+  outline: none;
+}
+.logado {
+  width: 10%;
+  height: 1.5vh;
+  border-radius: 10%;
+  border-style: none;
+  background: #E8E6E6;
+}
+label{
+    font-size: 0.8em;
+}
+
+.box-btn {
+  width: 15%;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-btn1 {
+  width: 10%;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff002e;
+  border-radius: 15%;
+}
+
+.btn {
+  width: 50%;
+}
+
+h1 {
+  width: 60%;
+  text-align: center;
+}
+
+.img-principal {
+  width: 100%;
+  height: 99vh;
+  animation: shine 5s ease-in-out infinite;
+}
+@keyframes shine {
+    0% {
+      filter: hue-rotate(0) opacity(1);
+    }
+    10% {
+      filter: hue-rotate(100deg) opacity(1);
+    }
+    25% {
+      filter:hue-rotate(50deg) opacity(0.9);
+    }
+    45% {
+      filter:hue-rotate(300deg) opacity(0.9);
+    }
+    65% {
+      filter:hue-rotate(260deg) opacity(0.9);
+    }
+    85% {
+      filter: hue-rotate(200deg) opacity(0.9);
+    }
+    100% {
+      filter:hue-rotate(0) opacity(1);
+    }
+  }
+.containerUm {
+  width: 100%;
+  height: 96vh;
+  display: flex;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.8vw;
+}
+
+form {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #A6A6A6;
+
+}
